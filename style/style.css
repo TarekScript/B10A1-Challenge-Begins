@@ -36,7 +36,12 @@
     opacity: 0.7;
     margin-bottom: 48px;
   }
-
+  .target-link{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+  }
   /* header section  */
   .nav-bar{
       display: flex;
@@ -130,4 +135,111 @@
   #flex-reverse{
       display: flex;
       flex-direction: row-reverse;
+  }
+  #width-subtitle{
+    width: 850px;
+    margin: 24px auto;
+  }
+  #yt-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px auto;
+    width: 1014px;
+    border-radius: 16px;
+      border: 1px solid rgba(13, 19, 33, 0.2);
+      padding: 32px;
+    }
+    iframe{
+      border-radius: 16px;
+    }
+    .target-container{
+      width: 1000px;
+      margin: 120px auto;
+    }
+    .target-title{
+      color: rgb(13, 19, 33);
+      font-size: 24px;
+      font-weight: 800;
+    }
+    .targets{
+      display: flex;
+      justify-content: space-around;
+      gap: 24px;
+    }
+    .target{
+      padding: 40px;
+      
+    }
+    #html-bg{
+      border-radius: 16px;
+      background-color: rgba(255, 76, 30, 0.05);
+    }
+    #css-bg{
+      border-radius: 16px;
+      background-color: rgba(0, 76, 232, 0.05);
+    }
+    #js-bg{
+      border-radius: 16px;
+      background-color: rgba(255, 223, 0, 0.05);
+    }
+    .target-subtitle{
+      color: rgb(13, 19, 33);
+      font-size: 16px;
+      font-weight: 400;
+      opacity: 0.7;
+    }
+    .next-target{
+      display: flex;
+      gap: 30px;
+      border: 1px solid rgba(13, 19, 33, 0.15);
+      border-radius: 16px;
+      padding: 40px;
+      margin-bottom: 24px;
+    }
+    .next-target-container{
+      width: 1000px;
+      margin: 50px auto;
+    }
+   /* support section  */
+   .support{
+     text-align: center;
+     width: 1000px;
+     margin: 50px auto;
+     background-image: url('../assets/handshake.jpg');
+     background-size: cover;
+     padding: 64px;
+   }
+   .color-wite{
+     color: white;
+   }
+   input[type=text]{
+    border-radius: 4px;
+    padding: 15px;
+    width: 550px;
+    border: none;
+    font-size: 20px;
+  }
+  input[type=submit]  {
+    border-radius: 4px;
+    padding: 15px;
+    border: none;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  /* footer  */
+  footer{
+    margin: 30px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer h1{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .footer-social{
+    display: flex;
+    gap: 25px;
   }
